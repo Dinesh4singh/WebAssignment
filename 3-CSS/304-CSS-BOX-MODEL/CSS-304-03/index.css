@@ -1,1 +1,18 @@
-/* start your css here */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.image{
+    box-shadow: 2px black;
+}
+img{
+    width:300px;
+    margin-bottom: 4%;
+}
+#product{
+    font-weight: lighter;
+}
+#price{
+    font-weight: bolder;
+}

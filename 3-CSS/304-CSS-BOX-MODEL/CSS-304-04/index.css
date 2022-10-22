@@ -1,1 +1,28 @@
-/* start your css here */
+.nav{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    width: 55%;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: larger;
+    font-weight: bold;
+}
+button{
+    
+    cursor: pointer;
+}
+body{
+    font-family: sans-serif;
+}
+#voot a{
+    color: white;
+}
+span{
+    color: white;
+    
+}

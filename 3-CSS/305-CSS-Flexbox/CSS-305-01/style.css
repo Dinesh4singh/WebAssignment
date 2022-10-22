@@ -1,1 +1,29 @@
-/* start your styling here  */
+header{
+    border-bottom: 2px solid orange;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 35px;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 10px;
+}
+img{
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 10px;
+}
+body{
+    background-color: lightslategray;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
