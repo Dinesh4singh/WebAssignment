@@ -1,1 +1,51 @@
-/* start your styling here  */
+.navBar{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #2874f0;
+    color: white;
+    padding: 5px;
+    
+}
+#text{
+    width:380px;
+    padding: 10px ;
+}
+body{
+    margin: 0;
+}
+.logo{
+    margin-left: 300px;
+    cursor: pointer;
+}
+#search{
+   
+    padding: 8px;
+    background-color: white;
+    color: #2874f0 ;
+    cursor: pointer;
+    position: absolute;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button{
+    padding: 10px 40px;
+    color: #2874f0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#select{
+    background-color: #2874f0;
+    border: 1px solid #2874f0;
+    color: white;
+    cursor: pointer;
+
+}
+.seller{
+    padding:5px
+}
