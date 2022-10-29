@@ -1,33 +1,43 @@
+.navBackground{
+    background-color: #2874f0;
+
+}
 .navBar{
     
     display: flex;
     justify-content: space-around;
-    background-color: #2874f0;
+    width: 85%;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    margin: 0 auto;
+
     
 }
 #text{
     width:380px;
     padding: 10px ;
+    background-color: white;
+    border: 1px solid white;
+
 }
 body{
     margin: 0;
 }
 .logo{
-    margin-left: 300px;
+    margin-left: 80px;
     cursor: pointer;
 }
 #search{
    
-    padding: 8px;
+    padding: 7px;
     background-color: white;
     color: #2874f0 ;
     cursor: pointer;
     position: absolute;
+    
 
 }
-a{
+.a1{
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -38,14 +48,72 @@ button{
     background-color: white;
     border: none;
     cursor: pointer;
+    font-weight: bolder;
+    
 }
 #select{
     background-color: #2874f0;
     border: 1px solid #2874f0;
     color: white;
     cursor: pointer;
+    font-weight: bolder;
+    margin-top: 5px;
 
 }
 .seller{
     padding:5px
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 85%;
+    font-weight: bold;
+    
+    
+    
+}
+.menu_item{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cart , .seller {
+    font-weight: bolder;
+    
+}
+
+
+.cart{
+    display: flex;
+    margin-top: 5px;
+}
+#Plus{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+em{
+    color:#f1d27d;
+    font-size: smaller;
+}
+#Flipkart{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#Explore{
+    font-size: smaller;
+    font-style: italic;
 }
