@@ -1,1 +1,59 @@
 /* start your styling here  */
+.container{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    
+}
+.flex{
+    
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.success{
+    color: green;
+    border: 2px solid green;   
+}
+.info{
+    color: skyblue;
+    border: 2px solid skyblue;   
+}
+.warning{
+    color: orange;
+    border: 2px solid orange;   
+}
+.danger{
+    color: red;
+    border: 2px solid red;   
+}
+.default{
+    color: grey;
+    border: 2px solid grey;   
+}
+.success:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.info:hover{
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+.warning:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.danger:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.default:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
