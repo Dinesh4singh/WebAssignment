@@ -6,7 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+    }
+    body{
+      border: 5px solid black;
+    }
+    #text:hover{
+      border: 2px solid cyan;
+      padding: 5px 20px;
+    }
+    #text{
+      border: 2px solid green;
+      padding: 5px 20px;
+    }
+  </style>
+  
   <body>
-    Start your code here
+    <div class="container">
+    <input type="text" id="text" oninput="fn()" value="">
+    
+    <p id="wrote"></p>
+    <script>
+      function fn(){
+        var inputRef= document.getElementById("text");
+       var pRef= document.getElementById("wrote");
+        var inputValue= inputRef.value;
+        pRef.innerText= inputValue;
+      
+        
+      }
+    </script>
+    </div>
   </body>
 </html>
