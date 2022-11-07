@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    Start your code here
+    <div class="slide-container">
+      <div class="slide">
+        <img src="https://wallpaperaccess.com/full/1133687.jpg" alt="img1"/>
+      </div>
+      <div class="slide">
+        <img src="https://images.hdqwalls.com/wallpapers/pubg-4k-2020-uv.jpg" alt="img2"/>
+      </div>
+      <div class="slide">
+        <img src="https://wallpapercave.com/wp/wp7476948.jpg" alt="img3"/>
+      </div>
+      <div>
+        <span class="arrow next" onclick="controller(1)">&#10095</span>
+        <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+        <script src="index.js"></script>
+
+      </div>
+    </div>
   </body>
 </html>
